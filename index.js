@@ -19,8 +19,6 @@ mongoose
     console.log(err);
   });
 
-console.log("za");
-
 app.use(cors());
 app.use(express.json());
 app.use("/api/auth", authRoute);
